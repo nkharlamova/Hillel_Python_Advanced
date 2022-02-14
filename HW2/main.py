@@ -1,3 +1,7 @@
+# 1. Создать таблицу emails с полями id, name, phone
+#
+# 2. Реализовать CRUD операции для таблицы emails (/emails/create/, /emails/read/, /emails/update/, /emails/delete/)
+
 import sqlite3
 from flask import Flask, request
 from utils import get_email, show_table_view
